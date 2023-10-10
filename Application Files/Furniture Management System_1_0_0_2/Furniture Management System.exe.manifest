@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Furniture Management System.exe" version="1.0.0.2" publicKeyToken="0a8712509543c0ee" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Furniture Management System" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="Furniture Management System.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Furniture Management System.exe" size="2030080">
+      <assemblyIdentity name="Furniture Management System" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>vsXjpQFmgiMzZ8rspqzKOgDLg7k=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Furniture Management System.exe.config" size="545">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>RmIN3TVYUqP1g4iH2Un/trUTV0o=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources.accdb" size="778240">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>SPRaN69w8vWxiFea9XJ1VWZQp+Q=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=JAM\JEM" issuerKeyHash="e4f77b881de24167efd0e1167f3695bbf923c907" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>6qz8sexLUb4qCQlUdS7d9r3knas=</DigestValue></Reference></SignedInfo><SignatureValue>qPmnbiAP4I4Fap7qRtFS9nC/kF6ARmmCGsNLQbWlU2QQErwK96FQjeIipvRIRMOof8SMP5VFgk70JsLu41SLsKMS/KLqdBtJIKHdJfIdwUpbjo82z9DeSsm4YUf6ViUtH75z4ifWHj+lnH+1K0qBQ7zmop03+JaOadYCuJ/QWZQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>0mfaHWlGeJzFRS2rk4JuYeN06ukGu7vnF3q8HmmVwce50rsc2OiLOEyJJO3HfD4eTLswt0y/KbPupASRB8Rl4bEyIfYKhiv6MYFZjcrIEEa87oCGhgj5/BUvjXnV4YZ0NSplBRfjTTRhYk7F4IPT8VT3HU2MShLxi8qDs6xBqe8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ab9de4bdf6dd2e755409092abe514becb1fcacea" Description="" Url=""><as:assemblyIdentity name="Furniture Management System.exe" version="1.0.0.2" publicKeyToken="0a8712509543c0ee" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=JAM\JEM</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>lGhKXKqT655LbTL9tzZlJZb32qE=</DigestValue></Reference></SignedInfo><SignatureValue>qcgm6tTKOi3cMaP493YX5KaTHIPP0OseJepvKW4gXYcfnaG0rFNAMtjYdrEdScbYbWTj+FLhWA/pTODx3vDywKtLl6lmvFAR+viI8M50EcH59JgE2LpI69fyqFcfiQUT4Ul3DAJtLuyuTg/9dIBpp60kvbAjU/PpiQhK4ub/tqw=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>0mfaHWlGeJzFRS2rk4JuYeN06ukGu7vnF3q8HmmVwce50rsc2OiLOEyJJO3HfD4eTLswt0y/KbPupASRB8Rl4bEyIfYKhiv6MYFZjcrIEEa87oCGhgj5/BUvjXnV4YZ0NSplBRfjTTRhYk7F4IPT8VT3HU2MShLxi8qDs6xBqe8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBtTCCAR6gAwIBAgIQZKd7xzmPApROYOhnV6S7LzANBgkqhkiG9w0BAQUFADAZMRcwFQYDVQQDHg4ASgBBAE0AXABKAEUATTAeFw0xOTA5MjYxMTIwMzFaFw0yMDA5MjUxNzIwMzFaMBkxFzAVBgNVBAMeDgBKAEEATQBcAEoARQBNMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSZ9odaUZ4nMVFLauTgm5h43Tq6Qa7u+cXerweaZXBx7nSuxzY6Is4TIkk7cd8Ph5MuzC3TL8ps+6kBJEHxGXhsTIh9gqGK/oxgVmNysgQRrzugIaGCPn8FS+NedXhhnQ1KmUFF+NNNGFiTsXgg9PxVPcdTYxKEvGLyoOzrEGp7wIDAQABMA0GCSqGSIb3DQEBBQUAA4GBANEKqNdiauJkH7F6sZYXHhlChe1PuOPZIVu7i8SP5PrJ/7PLpMg+gop9azruTAQ6nN3I2vrCOBuHPXYXpH2FoDOt+Z8ineJ5R6yvRYfAlAb/BJjA9ie5YO1i3jmM6gAjQ+bQxjjlL83iNm2YdnIPtqqsSZCsi/TorHWoYGgscUzJ</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
